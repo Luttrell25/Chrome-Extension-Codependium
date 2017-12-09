@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Coding Train Extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "sketch/media/clogo.477b7342.jpg",
+    "default_popup": "sketch/index.html",
+    "default_title": "Collision Detection!"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+}

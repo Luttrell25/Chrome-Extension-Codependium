@@ -1,0 +1,50 @@
+#header {
+  background-color: orange;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#container {
+  width: 400px;
+}
+
+#get-url {
+  text-align: center;
+  margin: auto;
+}
+
+#logo {
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 400px;
+  /*height: 230px;*/
+}
+
+.removeButton {
+  margin-left: 90%;
+  border: none;
+  background-repeat: no-repeat;
+  background-image: url("../media/delete.ico");
+  background-size: contain;
+  width: 15px;
+  height:15px;
+}
+
+.linkButton {
+  margin-left: 90%;
+  background-repeat: no-repeat;
+  background-image: url("../media/hyperlink.png");
+  background-size: contain;
+  width: 15px;
+  height:15px;
+}
+
+.para-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: darkgray;
+}
