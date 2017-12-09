@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Coding Train Extension",
+  "name": "Chrome-Extension-CodePendium EXP",
   "version": "0.1",
   "content_scripts": [
     {
@@ -20,7 +20,7 @@
   "browser_action": {
     "default_icon": "sketch/media/clogo.477b7342.jpg",
     "default_popup": "sketch/index.html",
-    "default_title": "Collision Detection!"
+    "default_title": "Experimental!"
   },
   "permissions": [
     "tabs",

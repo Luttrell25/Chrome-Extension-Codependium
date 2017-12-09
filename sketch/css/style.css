@@ -30,6 +30,7 @@
   background-size: contain;
   width: 15px;
   height:15px;
+  margin-bottom: 6px;
 }
 
 .linkButton {
@@ -43,8 +44,12 @@
 
 .para-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 5px;
+  border: 1px;
   border-style: solid;
   border-radius: 5px;
-  border-color: darkgray;
+  border-color: black;
+}
+
+.title {
+  padding-left: 20px;
 }

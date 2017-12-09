@@ -31,7 +31,7 @@ function addParagraph(title, url, i) {
   var linkButton = document.createElement('button');
 
   //create unique ID's for necessary elements
-  var titleID = "title" + i;
+  var titleID = "title";
   var paraID = "paragraph" + i;
   var createDeleteID = "delete" + i;
   var createLinkID = "link" + i;
@@ -109,7 +109,7 @@ function addParagraph(title, url, i) {
 
     }); //chrome.storage.sync.set
 
-    setImmediate(() => chrome.runtime.reload());
+    // setImmediate(() => chrome.runtime.reload());
   }); //addEventListener click function on createLinkID
 }; //addParagraph
 
