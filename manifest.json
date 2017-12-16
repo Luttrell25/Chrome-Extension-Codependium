@@ -22,6 +22,10 @@
     "default_popup": "sketch/index.html",
     "default_title": "Experimental!"
   },
+  "icons": { "16": "clogo.477b7342.jpg",
+           "48": "clogo.477b7342.jpg",
+          "128": "clogo.477b7342.jpg" 
+  },
   "permissions": [
     "tabs",
     "storage"
